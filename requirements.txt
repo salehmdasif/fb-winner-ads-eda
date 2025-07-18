@@ -1,0 +1,15 @@
+# Core Libraries for Data Analysis [Command: pip install -r requirements.txt]
+
+pandas~=2.2.3
+numpy
+scikit-learn
+scipy
+matplotlib~=3.10.3
+seaborn~=0.13.2
+Plotly
+
+# Notebook Environment
+jupyter            # Meta-package (includes notebook, console, etc.)
+ipykernel          # Required for running Jupyter notebooks in PyCharm
+
+ipython~=9.2.0

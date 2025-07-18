@@ -1,2 +1,47 @@
-# fb_winner_ads_eda
-Data-driven analysis of Facebook ad creatives to identify top 10 performers across key engagement and ROI metrics. Includes cleaning, EDA, regression modeling, and actionable insights to guide future campaign strategy.
+# Data Analysis Project Starter Kit
+
+This is a clean, modular, and reusable structure for professional data analysis projects.
+
+## Features
+- Smart data loader (CSV, Excel, JSON, TSV, Parquet, Pickle)
+- Auto cleaner (columns, duplicates, missing, dates)
+- `main.py` for full pipeline execution (Set your file path there)
+	
+
+## Structure
+```
+data_analysis_project/
+├── data/                                           # Raw or cleaned datasets
+├── images/
+├── notebooks/                                      # All Jupyter/Colab notebooks
+│   ├── 01_load_preview.ipynb
+│   ├── 02_manual_clening.ipynb
+│   └── 03_explore_cleaned_data.ipynb
+├── outputs/                                        # Processed files, reports, charts
+│   ├──report_and_insights.md                        
+├── scripts/                                        # Core logic (reusable Python modules)
+│   ├── cleaner.py                                  # AutoCleaner class
+│   ├── data_validator.py                           # DataValidator 
+│   ├── loader.py                                   # SmartDataLoader class
+│   └── utils.py                                    # Helper functions (save/load/export)
+├── main.py                                         # Entry point: run everything from one place
+├── requirements.txt                                # Used pip dependencies
+├── README.md                                       # Project overview & instructions
+├── .gitignore                                      # Ignore virtual env, cache, etc.
+└── LICENSE
+
+```
+
+## Usage
+```
+python main.py
+```
+
+## Execution Order
+```
+Following the sequence — Load → Clean → Explore. 
+— 01_load_preview.ipynb,
+— 02_manual_cleaning.ipynb,
+— 03_explore_cleaned_data.ipynb
+
+```
