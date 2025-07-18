@@ -1,6 +1,4 @@
-# FB Ad Analysis - Top 10 performing ad & creative and EDA
-
-This is a clean, modular, and reusable structure for professional data analysis projects.
+# Facebook Ads - Top 10 performing ad creatives and EDA
 
 ## Features
 - Smart data loader (CSV, Excel, JSON, TSV, Parquet, Pickle)
