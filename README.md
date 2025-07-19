@@ -1,4 +1,4 @@
-# Facebook Ads - Top 10 performing ad creatives and EDA
+# Optimizing Facebook Ads: Unveiling the Top 10 Performing Ad Creatives with Performance EDA
 
 ## Features
 - Smart data loader (CSV, Excel, JSON, TSV, Parquet, Pickle)
